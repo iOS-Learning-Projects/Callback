@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Call.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Call *call = [[Call alloc]init];
+        [[NSRunLoop currentRunLoop]run];
     }
     return 0;
 }
